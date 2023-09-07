@@ -1,0 +1,40 @@
+body
+    {
+        background: linear-gradient(to bottom, #3075ce 0%, #70f7f7 116%);
+        height: 100vh;
+        overflow: hidden;
+    }
+
+.main{
+    border: 2px solid black;
+    width: 500px;
+    height: 230px;
+    text-align: center;
+    margin-top: 250px;
+    margin-left: 500px;
+    box-shadow: 3px 3px  rgb(43, 42, 42);
+}
+h1{
+    text-shadow: 2px 2px rgb(9, 9, 9);
+    color: red;
+}
+.btn{
+    width: 60px;
+    border-radius: 5px;
+    color: rgb(8, 8, 8);
+    border-radius: 10px;
+    border-color: aliceblue;
+    width: 100px;
+    height: 30px;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    font-size: medium;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    color: rgb(11, 11, 11);
+}
