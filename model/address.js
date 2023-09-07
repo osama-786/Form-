@@ -6,7 +6,7 @@ const userSchema1 = new mongoose.Schema({
         type: String
     }
 })
-// Creating a mongoose model with the preffered name of collection and the UserSchema created above.
+// Creating a mongoose model with the preferred name of the collection and the UserSchema created above.
 const Address = mongoose.model('Address',userSchema1);
-//Exporing Model.
+//Exporting Model.
 module.exports = Address
